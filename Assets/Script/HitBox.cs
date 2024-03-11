@@ -5,7 +5,6 @@ using UnityEngine;
 public class HitBox : MonoBehaviour, IDamageable
 {
     public float health = 100;
-
     public void OnDamage(float damageAmount)
     {
         health -= damageAmount;
@@ -15,3 +14,4 @@ public class HitBox : MonoBehaviour, IDamageable
         }
     }
 }
+
